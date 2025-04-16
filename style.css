@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -6,39 +5,66 @@ body {
   color: #e0ffe0;
   text-align: center;
 }
+
 header {
   padding: 2rem;
   background: #111;
 }
+
 .logo {
   width: 100px;
   margin-bottom: 10px;
 }
-.band-image {
+
+.band-photo {
   width: 90%;
   max-width: 600px;
   margin: 2rem auto;
   display: block;
   border: 2px solid #33ff33;
 }
-section.bio {
-  padding: 1rem 2rem;
+
+.video-thumb {
+  width: 90%;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  border: 2px solid #33ff33;
+  display: block;
 }
-section.links {
-  background: #111;
+
+section {
   padding: 2rem;
 }
-section.links a {
-  color: #33ff33;
-  text-decoration: none;
+
+.gig-info {
+  margin-top: 2rem;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #33ff33;
 }
-section.links a:hover {
-  text-decoration: underline;
+
+.gig-poster {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1rem;
+  border: 1px solid #33ff33;
 }
+
 ul {
   list-style: none;
   padding: 0;
 }
+
 ul li {
   margin: 0.5rem 0;
+}
+
+section#links a {
+  color: #33ff33;
+  text-decoration: none;
+}
+
+section#links a:hover {
+  text-decoration: underline;
 }
