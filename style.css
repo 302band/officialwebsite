@@ -15,10 +15,11 @@ header {
   margin-bottom: 10px;
 }
 .band-image {
-  width: 50%;
-  max-width: 100px;
-  margin: 2rem auto;
+  width: 80px;
+  max-width: 100%;
+  height: auto;
   display: block;
+  margin: 1rem auto; /* kurang margin */
   border: 2px solid #33ff33;
 }
 section.bio {
