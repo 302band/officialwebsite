@@ -68,3 +68,25 @@ ul li {
     margin: 0.5rem 0;
     font-size: 1.1rem;
 }
+/* Tambah ini */
+.band-member {
+  max-width: 120px; /* Hadkan lebar parent */
+  margin: 0 auto;
+}
+
+/* Media Query untuk Mobile */
+@media (max-width: 768px) {
+  .band-image {
+    width: 60px; /* Lebih kecil di mobile */
+  }
+  .band-member {
+    max-width: 80px; /* Parent lebih kecil */
+  }
+}
+
+/* Optional: Kecilkan margin untuk ruang padat */
+@media (max-width: 768px) {
+  .band-image {
+    margin: 0.5rem auto; /* Kurangkan margin */
+  }
+}
