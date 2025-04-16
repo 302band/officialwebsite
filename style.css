@@ -15,11 +15,10 @@ header {
   margin-bottom: 10px;
 }
 .band-image {
-  width: 80px;
-  max-width: 100%;
-  height: auto;
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
   display: block;
-  margin: 1rem auto; /* kurang margin */
   border: 2px solid #33ff33;
 }
 section.bio {
@@ -42,51 +41,4 @@ ul {
 }
 ul li {
   margin: 0.5rem 0;
-}
-
-#spotify {
-    background-color: #121212;
-    padding: 2rem;
-    color: #0f0;
-    text-align: center;
-}
-
-#spotify h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-#gigs {
-    background-color: #111;
-    color: #0f0;
-    padding: 2rem;
-    border-top: 1px solid #0f0;
-    text-align: left;
-}
-
-.gig-info p {
-    margin: 0.5rem 0;
-    font-size: 1.1rem;
-}
-/* Tambah ini */
-.band-member {
-  max-width: 120px; /* Hadkan lebar parent */
-  margin: 0 auto;
-}
-
-/* Media Query untuk Mobile */
-@media (max-width: 768px) {
-  .band-image {
-    width: 60px; /* Lebih kecil di mobile */
-  }
-  .band-member {
-    max-width: 80px; /* Parent lebih kecil */
-  }
-}
-
-/* Optional: Kecilkan margin untuk ruang padat */
-@media (max-width: 768px) {
-  .band-image {
-    margin: 0.5rem auto; /* Kurangkan margin */
-  }
 }
